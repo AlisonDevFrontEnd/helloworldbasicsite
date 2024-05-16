@@ -23,6 +23,8 @@ nav {
   position: sticky;
   background-color: black;
   top: 0;
+  z-index: 1000;
+  padding: 10px;
 }
 nav ul {
   display: flex;
@@ -31,6 +33,7 @@ nav ul {
   list-style: upper-roman;
   color: #fff;
   padding: 20px;
+  margin: 0;
 }
 nav a {
   color: #fff;
@@ -61,6 +64,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 10px;
 }
 
 footer {
